@@ -1,0 +1,14 @@
+{
+  "name": "surebet",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "capture:digitain": "node scripts/capture-digitain.js",
+    "fetch:bulletin": "node scripts/fetch-digitain-bulletin.js"
+  },
+  "dependencies": {
+    "playwright": "^1.58.2",
+    "ws": "^8.19.0"
+  }
+}
